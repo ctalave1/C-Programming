@@ -1,7 +1,7 @@
 Chris Talavera
 Kyle Reynolds
 
-#To Compile:#
+###To Compile:###
 
 **Compile Driver (Linux):** gcc -o compile compile.c
 
@@ -13,7 +13,7 @@ Kyle Reynolds
 
 **P-code Machine:** gcc -o pmachine pmachine.c
 
-#To Run (Linux):#
+###To Run (Linux):###
 
 **Compile Driver:** ./compile [-l] [-a] [-v]
 
@@ -23,7 +23,7 @@ Kyle Reynolds
 
 **P-code Machine:** ./pmachine [-v]
 
-#To Run (Windows):#
+###To Run (Windows):###
 
 **Compile Driver:** compile [-l] [-a] [-v]
 
@@ -33,8 +33,7 @@ Kyle Reynolds
 
 **P-code Machine:** pmachine [-v]
 
-**Side Note: If the compile driver appears to be frozen before printing the stack trace, it is most likely waiting for input from the user. **
-**Check the input file to see what it wants as input.**
+*Side Note: If the compile driver appears to be frozen before printing the stack trace, it is most likely waiting for input from the user. Check the input file to see what it wants as input.*
 
 *| | denotes information that should not be included in the command*
 
